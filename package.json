@@ -1,0 +1,27 @@
+{
+  "name": "simon_game",
+  "version": "0.0.1",
+  "description": "simon_game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ".git"
+  },
+  "keywords": [
+    "simon",
+    "game"
+  ],
+  "author": "KinderPreet",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-util": "^3.0.8"
+  }
+}

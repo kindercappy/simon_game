@@ -1,4 +1,84 @@
-h1 {
+.gameContainer {
+  position: relative;
+  width: 440px;
+  height: 440px;
+  background-color: grey;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+.fourButton {
+  width: 190px;
+  height: 190px;
+  margin: 20px;
+}
+
+#buttonGreen {
+  background-color: green;
   position: absolute;
-  left: -100px;
+  top: 0;
+  left: 0;
+  border-radius: 100% 0 0 0;
+}
+
+#buttonRed {
+  background-color: red;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 0 100% 0 0;
+}
+
+#buttonBlue {
+  background-color: blue;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 0 0 100%;
+}
+
+#buttonYellow {
+  background-color: yellow;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-radius: 0 0 100% 0;
+}
+
+.center {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: white;
+  border: 20px solid grey;
+  padding: .5rem;
+}
+.center .btnStartLabel {
+  font-size: .8rem;
+}
+.center .btnStrictLabel {
+  font-size: .8rem;
+}
+.center .start {
+  background-color: red;
+}
+.center .strict {
+  background-color: orange;
+}
+.center .gameCounter {
+  background-color: black;
+  color: white;
+  width: 50px;
+  margin: 0 auto;
+  border-radius: .5rem;
 }

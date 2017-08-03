@@ -1,47 +1,76 @@
+body{
+	color: white;
+}
 .gameContainer{
 	position: relative;
 	width:440px;
 	height:440px;
-	background-color: grey;
-	border-radius: 50%;
+	background-image: linear-gradient(to right, #434343 0%, black 100%);
+	border-radius: 5%;
 	padding: 20px;
 }
 .fourButton{
 	width:190px;
 	height:190px;
 	margin: 20px;
+	border-radius: 5%;
+	background-color: black;
 }
-#buttonGreen{
-	background-color: green;
+.buttonShowPattern{
+	// background-color: black;
+	background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+.buttonClicked{
+	background-image: linear-gradient(to right, white 0%, #f9d423 100%);
+}
+#buttonZero{
+	background-color: black;
 	position: absolute;
 	top: 0;
 	left: 0;
-	border-radius: 100% 0 0 0;
+	// &:hover{
+	// 	background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+	// }
+	// border-radius: 100% 0 0 0;
 }
-#buttonRed{
-	background-color: red;
+#buttonOne{
+	// background-color: red;
+	background-color: black;
 	position: absolute;
 	top: 0;
 	right: 0;
-	border-radius: 0 100% 0 0;
+	// &:hover{
+	// 	background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+	// }
+	// border-radius: 0 100% 0 0;
 }
-#buttonBlue{
-	background-color: blue;
+#buttonThree{
+	// background-color: blue;
+	background-color: black;
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	border-radius: 0 0 0 100%;
+	// &:hover{
+	// 	background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%);
+	// }
+	// border-radius: 0 0 0 100%;
 }
-#buttonYellow{
-	background-color: yellow;
+#buttonTwo{
+	// background-color: yellow;
+	background-color: black;
 	position: absolute;
 	right: 0;
 	bottom: 0;
-	border-radius: 0 0 100% 0;
+	// &:hover{
+	// 	background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);
+	// }
+	// border-radius: 0 0 100% 0;
+}
+#buttonZero,#buttonOne,#buttonThree,#buttonTwo{
 }
 .center{
-	width: 200px;
-	height: 200px;
+	width: 180px;
+	height: 180px;
 	background-color: black;
 	border-radius: 50%;
 	position: absolute;
@@ -53,8 +82,8 @@
   	margin-right: auto;
   	margin-top: auto;
   	margin-bottom: auto;
-  	background-color:white;
-  	border: 20px solid grey;
+	background-image: linear-gradient(to right, #434343 0%, black 100%);
+  	border: 1px dashed white;
   	padding: .5rem;
 	.btnStartLabel{
 		font-size: .8rem;
